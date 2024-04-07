@@ -1,5 +1,7 @@
-### Notice! Files in the branch 'release' are tested and completed versions and suitable for building, branches prototype and development are NOT intended for public use, and may change without notice!
+### Notice! Files in the development branches are NOT intended for public use in production of PCB's, may or may not be tested and may change or be removed without notice! 
+Please use the Gerber files for producing PCB's, found under the header 'Releases' instead. Also please note the difference between a 'Pre-release' (partially/fully untested, basically what I order a prototype PCB from to test) and a full actual 'Release' which is fully tested, built and ready to be used to produce PCB's.
 
+That said, if you want to tweak/change or make something new based on my project, I can point you to a suitable starting point in the raw files. Talk to me, and I'm happy to help.
 # Lotus 58 Glow
 
 Starting with simple tweaks to the Lily58 Glow before ordering a set of PCB's it quickly spiraled out of control, and I ended up with what wasn't quite a Lily58 anymore, and although very similar in layout, it is no longer compatible with plate and case design. 
