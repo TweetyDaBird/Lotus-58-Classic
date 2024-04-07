@@ -1,5 +1,5 @@
-### Notice! Files in the development branches are NOT intended for public use in production of PCB's, may or may not be tested and may change or be removed without notice! Producing PCB's from the raw files is NOT recommended! Please use the released Gerber files for producing PCB's instead!
-Also please note the difference between a 'Pre-release' (partially/fully untested, basically what I order a prototype PCB from to test) and a full actual 'Release' which is fully tested, built and ready to be used to produce PCB's.
+### Notice! Files in the development branches are NOT intended for public use in production of PCB's, may or may not be tested and may change or be removed without notice! 
+Please use the Gerber files for producing PCB's, found under the header 'Releases' instead. Also please note the difference between a 'Pre-release' (partially/fully untested, basically what I order a prototype PCB from to test) and a full actual 'Release' which is fully tested, built and ready to be used to produce PCB's.
 
 That said, if you want to tweak/change or make something new based on my project, I can point you to a suitable starting point in the raw files. Talk to me, and I'm happy to help.
 
