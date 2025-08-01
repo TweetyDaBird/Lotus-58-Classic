@@ -104,6 +104,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -546,6 +547,9 @@
       ],
       "/PWR_GLOW": "POWER",
       "/PWR_KEY": "POWER",
+      "Net-(FB1-Pad1)": [
+        "POWER"
+      ],
       "Net-(JP1-Pad2)": "POWER",
       "Net-(JP4-Pad2)": "POWER",
       "Net-(JP7-Pad2)": "POWER",

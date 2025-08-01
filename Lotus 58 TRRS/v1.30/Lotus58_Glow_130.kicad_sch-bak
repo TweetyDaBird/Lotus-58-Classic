@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Lotus 58 - TRRS Link")
-		(date "2025-08-01")
+		(date "2025-04-03")
 		(rev "v1.30")
 		(company "Markus Knutsson <markus.knutsson@tweety.se>")
 		(comment 1 "https://github.com/TweetyDaBird")
@@ -810,172 +810,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Keyboard Common:BLM18SG700TZ1D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 6.35 0.0381 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BLM18SG700TZ1D"
-				(at 3.81 0.0381 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C1002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PartNo" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BLM18SG700TZ1D_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BLM18SG700TZ1D_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Keyboard Common:MSK12C02"
 			(pin_names
 				(offset 0)
@@ -1545,7 +1379,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Keyboard Switches:Rotary_Encoder_Click"
+		(symbol "Keyboard_Library:Rotary_Encoder_Switch_GND"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -1553,23 +1387,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "ENC1"
-				(at 0 10.16 0)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Rotary_Encoder_Click"
-				(at 0 7.62 0)
+			(property "Value" "Rotary_Encoder_Switch_GND"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Keyboard Encoders:Encoder_Alps_EC11E_Small"
+			(property "Footprint" ""
 				(at -3.81 4.064 0)
 				(effects
 					(font
@@ -1614,7 +1448,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Rotary_Encoder_Click_0_1"
+			(symbol "Rotary_Encoder_Switch_GND_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -1839,7 +1673,7 @@
 					)
 				)
 			)
-			(symbol "Rotary_Encoder_Click_1_1"
+			(symbol "Rotary_Encoder_Switch_GND_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -1895,7 +1729,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -8.89 90)
+					(at -1.27 -8.89 90)
 					(length 3.7084)
 					(name "GND"
 						(effects
@@ -1904,7 +1738,7 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "MP1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1913,9 +1747,8 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -8.89 90)
+					(at 1.27 -8.89 90)
 					(length 3.7592)
-					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1923,7 +1756,7 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "MP2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1960,825 +1793,6 @@
 						)
 					)
 					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Keyboard Switches:SW_MX_HotSwap_Reversible_Encoder"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ENC_"
-				(at 0 8.128 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_MX_HotSwap_Reversible_Encoder"
-				(at 0 8.89 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Keyboard Switches:SW_Hotswap_Kailh_Choc_V1V2_encoder"
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 2.54 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MX_HotSwap_Reversible_Encoder_0_1"
-				(circle
-					(center -2.032 1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 5.08) (xy -1.27 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 3.81)
-					(mid -1.7961 5.08)
-					(end -1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 6.35)
-					(mid 0 6.8761)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 6.35)
-					(mid 1.7961 5.08)
-					(end 1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 5.08) (xy 1.27 3.81) (xy 2.54 3.81) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_MX_HotSwap_Reversible_Encoder_1_1"
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MX_HotSwap_Reversible_Encoder_2_1"
-				(pin passive line
-					(at -5.08 -2.54 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 2.54 180)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Keyboard_Controllers:ProMicro"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U1"
-				(at 0 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ProMicro"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Keyboard Controllers:ProMicro_jumpers"
-				(at 2.54 -26.67 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 2.54 -26.67 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ProMicro_0_1"
-				(rectangle
-					(start -12.7 -16.51)
-					(end 12.7 16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ProMicro_1_1"
-				(pin input line
-					(at -17.78 13.97 0)
-					(length 5.08)
-					(name "TX0/PD3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 11.43 0)
-					(length 5.08)
-					(name "RX1/PD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 8.89 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 3.81 0)
-					(length 5.08)
-					(name "2/PD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 1.27 0)
-					(length 5.08)
-					(name "3/PD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -1.27 0)
-					(length 5.08)
-					(name "4/PD4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -3.81 0)
-					(length 5.08)
-					(name "5/PC6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -6.35 0)
-					(length 5.08)
-					(name "6/PD7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -8.89 0)
-					(length 5.08)
-					(name "7/PE6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -11.43 0)
-					(length 5.08)
-					(name "8/PB4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -13.97 0)
-					(length 5.08)
-					(name "9/PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 13.97 180)
-					(length 5.08)
-					(name "RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 11.43 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 8.89 180)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 6.35 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 3.81 180)
-					(length 5.08)
-					(name "A3/PF4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 1.27 180)
-					(length 5.08)
-					(name "A2/PF5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -1.27 180)
-					(length 5.08)
-					(name "A1/PF6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -3.81 180)
-					(length 5.08)
-					(name "A0/PF7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -6.35 180)
-					(length 5.08)
-					(name "15/PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -8.89 180)
-					(length 5.08)
-					(name "14/PB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -11.43 180)
-					(length 5.08)
-					(name "16/PB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -13.97 180)
-					(length 5.08)
-					(name "10/PB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3108,6 +2122,76 @@
 				(rectangle
 					(start -6.35 2.54)
 					(end 6.35 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Logotypes:CE_Logo"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "Logo1"
+				(at 0 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CE_Logo"
+				(at 0.254 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Logotypes:CE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CE_Logo_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -3876,327 +2960,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SW_MX_HotSwap_Reversible_Encoder_1"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ENC_"
-				(at 0 8.128 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_MX_HotSwap_Reversible_Encoder"
-				(at 0 8.89 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Keyboard Switches:SW_Hotswap_Kailh_Choc_V1V2_encoder"
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 2.54 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MX_HotSwap_Reversible_Encoder_1_0_1"
-				(circle
-					(center -2.032 1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy -1.27 5.08) (xy -1.27 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 3.81)
-					(mid -1.7961 5.08)
-					(end -1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 6.35)
-					(mid 0 6.8761)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 6.35)
-					(mid 1.7961 5.08)
-					(end 1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.81) (xy 1.27 5.08) (xy 1.27 3.81) (xy 2.54 3.81) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_MX_HotSwap_Reversible_Encoder_1_1_1"
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MX_HotSwap_Reversible_Encoder_1_2_1"
-				(pin passive line
-					(at -5.08 -2.54 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 90)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 2.54 180)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 6.35 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4407,6 +3170,505 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "keebio:ProMicro"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ProMicro"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 26.67 -63.5 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -63.5 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ProMicro_0_1"
+				(rectangle
+					(start -12.7 -16.51)
+					(end 12.7 16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ProMicro_1_1"
+				(pin input line
+					(at -17.78 13.97 0)
+					(length 5.08)
+					(name "TX0/PD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 11.43 0)
+					(length 5.08)
+					(name "RX1/PD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 3.81 0)
+					(length 5.08)
+					(name "2/PD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "3/PD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -1.27 0)
+					(length 5.08)
+					(name "4/PD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -3.81 0)
+					(length 5.08)
+					(name "5/PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "6/PD7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -8.89 0)
+					(length 5.08)
+					(name "7/PE6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -11.43 0)
+					(length 5.08)
+					(name "8/PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -13.97 0)
+					(length 5.08)
+					(name "9/PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 13.97 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 6.35 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 3.81 180)
+					(length 5.08)
+					(name "A3/PF4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "A2/PF5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -1.27 180)
+					(length 5.08)
+					(name "A1/PF6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -3.81 180)
+					(length 5.08)
+					(name "A0/PF7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -6.35 180)
+					(length 5.08)
+					(name "15/PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -8.89 180)
+					(length 5.08)
+					(name "14/PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -11.43 180)
+					(length 5.08)
+					(name "16/PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -13.97 180)
+					(length 5.08)
+					(name "10/PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -4734,9 +3996,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Not Connected = Left\nConnected = Right"
+	(text "VCC/High = Left\nGND/Low = Right"
 		(exclude_from_sim no)
-		(at 145.542 112.522 0)
+		(at 381 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4750,6 +4012,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00bb8352-ddd8-4b0e-84c5-27cd437e1e92")
+	)
+	(junction
+		(at 50.8 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00c6a529-9a5b-46b4-aeaf-c791e9876392")
 	)
 	(junction
 		(at 59.69 274.32)
@@ -4896,6 +4164,12 @@
 		(uuid "42ff2c86-71a8-4179-993b-fec7e4947736")
 	)
 	(junction
+		(at 200.66 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43204734-1c0e-4ac5-bb89-023236f3dbc4")
+	)
+	(junction
 		(at 119.38 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4948,6 +4222,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e93053f-e0f0-415c-b42e-85ff5e2feff5")
+	)
+	(junction
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61614cee-b370-4b29-a238-fc28a54dab71")
 	)
 	(junction
 		(at 50.8 72.39)
@@ -5040,12 +4320,6 @@
 		(uuid "7dc88e19-a476-40c7-83d2-3f6f67db5857")
 	)
 	(junction
-		(at 330.2 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e026f98-d63a-4511-8904-f239c6d868a0")
-	)
-	(junction
 		(at 50.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5124,12 +4398,6 @@
 		(uuid "96cab6bc-d6be-4013-bf8e-f78d0086dc30")
 	)
 	(junction
-		(at 132.08 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9968eed3-ea6e-4663-b996-1b56bea53a6d")
-	)
-	(junction
 		(at 111.76 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5172,6 +4440,12 @@
 		(uuid "a49eea03-6cd4-479c-a764-06c09fdb033d")
 	)
 	(junction
+		(at 199.39 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8bacdaf-591f-489e-a9b8-2caa0821b735")
+	)
+	(junction
 		(at 120.65 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5196,6 +4470,12 @@
 		(uuid "af4938e9-b334-4b8a-bef5-05a45081fecf")
 	)
 	(junction
+		(at 132.08 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b02f6423-1a09-47dc-9704-077bacf2b269")
+	)
+	(junction
 		(at 232.664 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5206,6 +4486,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b32813c3-f033-489d-9cd8-42e1e40445a3")
+	)
+	(junction
+		(at 201.93 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b82bce8e-1a8d-4b54-9651-4e02a3fd0ba6")
 	)
 	(junction
 		(at 309.88 49.53)
@@ -5224,12 +4510,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bec37828-bb48-4cad-8492-a8d0db952b2d")
-	)
-	(junction
-		(at 335.28 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "becd7ed4-36cc-494e-a87a-34ab82726922")
 	)
 	(junction
 		(at 62.23 156.21)
@@ -5280,12 +4560,6 @@
 		(uuid "da4d9151-fe13-418a-af4b-a64d34918d1a")
 	)
 	(junction
-		(at 175.26 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db6754be-2da7-419d-87d2-234d6dc4ff5d")
-	)
-	(junction
 		(at 91.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5304,12 +4578,6 @@
 		(uuid "e2e54c0d-b3a2-4ce8-b51d-bacac6f7939d")
 	)
 	(junction
-		(at 139.7 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea7f951f-9711-4ed6-85fa-bef31aca8625")
-	)
-	(junction
 		(at 139.7 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5320,6 +4588,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eef897cf-79eb-4dbb-8862-25d9dded4186")
+	)
+	(junction
+		(at 139.7 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0971e93-f013-441c-89c4-cd60a5022610")
 	)
 	(junction
 		(at 100.33 274.32)
@@ -5352,34 +4626,40 @@
 		(uuid "faa82b61-969f-454e-afa1-29d62b5855c0")
 	)
 	(junction
+		(at 199.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe523494-887e-4e30-bd11-0008c3d82c20")
+	)
+	(junction
 		(at 59.69 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe867698-6ce5-41ad-a110-2ac1d5a3f589")
 	)
 	(no_connect
-		(at 252.73 97.79)
-		(uuid "171655f1-5026-48e7-a141-5adc811d57d8")
-	)
-	(no_connect
 		(at 128.27 265.43)
 		(uuid "4f197aa2-4aff-486e-94b3-517d6c36f6ee")
+	)
+	(no_connect
+		(at 262.89 92.71)
+		(uuid "541e51db-3f92-4392-94fd-e5e986c25df5")
 	)
 	(no_connect
 		(at 288.29 97.79)
 		(uuid "541e51db-3f92-4392-94fd-e5e986c25df6")
 	)
 	(no_connect
-		(at 262.89 92.71)
-		(uuid "7eeb4ac4-4cd7-4244-ae14-545daab52a77")
+		(at 288.29 92.71)
+		(uuid "541e51db-3f92-4392-94fd-e5e986c25df7")
+	)
+	(no_connect
+		(at 318.77 151.13)
+		(uuid "82dedc1f-8f46-4680-98a3-56f743ddceb7")
 	)
 	(no_connect
 		(at 370.84 179.07)
 		(uuid "b03de8fb-c21a-4845-9df9-045250634475")
-	)
-	(no_connect
-		(at 227.33 92.71)
-		(uuid "d93722a2-9402-468a-b854-2ef4047202da")
 	)
 	(wire
 		(pts
@@ -5453,6 +4733,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 80.01) (xy 199.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b459bf9-b68c-492a-a0aa-d2b81e0b6e2e")
+	)
+	(wire
+		(pts
 			(xy 120.65 222.25) (xy 120.65 220.98)
 		)
 		(stroke
@@ -5470,26 +4760,6 @@
 			(type default)
 		)
 		(uuid "0be6aa73-0585-4a81-a074-3cea864d55e2")
-	)
-	(wire
-		(pts
-			(xy 170.18 102.87) (xy 170.18 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca0e02d-2695-4e24-ad57-e37158738093")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 175.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cfdf383-87cc-4685-a8e2-269a486afa0a")
 	)
 	(wire
 		(pts
@@ -5573,6 +4843,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 49.53) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117e929d-f17d-489e-a8a3-0b1dce8999e7")
+	)
+	(wire
+		(pts
 			(xy 25.4 140.97) (xy 40.64 140.97)
 		)
 		(stroke
@@ -5593,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 153.67) (xy 326.39 153.67)
+			(xy 318.77 153.67) (xy 330.2 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5640,6 +4920,16 @@
 			(type default)
 		)
 		(uuid "1711ae5f-ce0e-4a66-8a10-4ed3cd14ff01")
+	)
+	(wire
+		(pts
+			(xy 199.39 86.36) (xy 199.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17357fde-1bae-4b19-bb12-bba595a24bae")
 	)
 	(wire
 		(pts
@@ -5733,6 +5023,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 85.09) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ad7cf9-0f40-4d11-9542-1209cf22c3c0")
+	)
+	(wire
+		(pts
 			(xy 156.21 229.87) (xy 156.21 247.65)
 		)
 		(stroke
@@ -5780,6 +5080,16 @@
 			(type default)
 		)
 		(uuid "25854ac8-4e1c-4b0e-a82a-fdd3b767f562")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262f85ee-a49a-4194-bdee-29ac02a484ec")
 	)
 	(wire
 		(pts
@@ -5870,6 +5180,16 @@
 			(type default)
 		)
 		(uuid "3338e061-df5b-48f6-a1b9-c59392b97673")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333d9e10-e219-42f3-849b-d5ddd5623af9")
 	)
 	(wire
 		(pts
@@ -6113,6 +5433,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 95.25) (xy 50.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2f2d8e-0514-4d74-883a-98f612442ba3")
+	)
+	(wire
+		(pts
 			(xy 39.37 220.98) (xy 39.37 222.25)
 		)
 		(stroke
@@ -6133,13 +5463,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 175.26 100.33)
+			(xy 199.39 85.09) (xy 201.93 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "521fca8e-d25c-4b0d-9cb2-9baa1c08dcb6")
+		(uuid "51c4a4d2-0fb2-466c-9e1a-318524239c65")
 	)
 	(wire
 		(pts
@@ -6163,16 +5493,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 97.79) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53bc4a69-22fa-49ff-9ba9-46f34981ea93")
-	)
-	(wire
-		(pts
 			(xy 46.99 265.43) (xy 52.07 265.43)
 		)
 		(stroke
@@ -6180,6 +5500,16 @@
 			(type default)
 		)
 		(uuid "53e66112-2768-4f87-a3a4-327d4bbba91b")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 156.21 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547db1cd-6b0f-4c16-ae8b-4456029c62ad")
 	)
 	(wire
 		(pts
@@ -6203,7 +5533,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 62.23) (xy 201.93 55.88)
+			(xy 200.66 62.23) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6213,7 +5543,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 156.21) (xy 326.39 156.21)
+			(xy 318.77 156.21) (xy 327.66 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6263,6 +5593,36 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 107.95) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bcb9cf-63c1-49c0-9e09-32e97073c182")
+	)
+	(wire
+		(pts
+			(xy 199.39 95.25) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a00e098-5192-4540-9073-e27d5447e879")
+	)
+	(wire
+		(pts
+			(xy 201.93 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a26b7ac-6982-4cd6-b29e-accc2335a6cb")
+	)
+	(wire
+		(pts
 			(xy 280.67 200.66) (xy 285.75 200.66)
 		)
 		(stroke
@@ -6273,17 +5633,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 105.41) (xy 152.4 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c3ceaec-1e93-4095-ba25-b5291a90303e")
-	)
-	(wire
-		(pts
-			(xy 209.55 49.53) (xy 217.17 49.53)
+			(xy 209.55 44.45) (xy 214.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6330,6 +5680,16 @@
 			(type default)
 		)
 		(uuid "5fae7ddc-63f6-4502-9be5-a7e8d46e8c5d")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6332be52-64bd-4113-a332-c5f652b54a31")
 	)
 	(wire
 		(pts
@@ -6663,13 +6023,13 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 151.13) (xy 318.77 151.13)
+			(xy 200.66 55.88) (xy 203.2 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c5e2666-f13b-4115-9ba3-3c7fa9ff84d9")
+		(uuid "7c81396b-1113-44e5-9b93-cf598be195e0")
 	)
 	(wire
 		(pts
@@ -6680,6 +6040,16 @@
 			(type default)
 		)
 		(uuid "7cfe8318-8b60-424c-8ac5-3986c14b04f1")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0055d8-110d-4a4c-93e4-b4718fa3724f")
 	)
 	(wire
 		(pts
@@ -6770,16 +6140,6 @@
 			(type default)
 		)
 		(uuid "85c459e8-5920-4ed2-bb5f-8beef7cc43fa")
-	)
-	(wire
-		(pts
-			(xy 336.55 151.13) (xy 335.28 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85efed5c-dc77-42c8-ac20-88350214d457")
 	)
 	(wire
 		(pts
@@ -6903,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 90.17) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9916ee-e2bd-408c-960d-d9bae62b28e4")
+	)
+	(wire
+		(pts
 			(xy 59.69 186.69) (xy 80.01 186.69)
 		)
 		(stroke
@@ -6910,16 +6280,6 @@
 			(type default)
 		)
 		(uuid "8e516797-5cda-4141-bc6c-efc7c6ee3aa3")
-	)
-	(wire
-		(pts
-			(xy 201.93 62.23) (xy 200.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea814a3-bec1-4609-90da-589dcff79440")
 	)
 	(wire
 		(pts
@@ -7113,6 +6473,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 91.44) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a961a754-de04-4c4b-8fa5-14d832398f35")
+	)
+	(wire
+		(pts
 			(xy 139.7 64.77) (xy 139.7 81.28)
 		)
 		(stroke
@@ -7273,6 +6643,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 91.44) (xy 199.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb79fe39-02d3-44e8-8597-7116bd14eedd")
+	)
+	(wire
+		(pts
 			(xy 91.44 72.39) (xy 111.76 72.39)
 		)
 		(stroke
@@ -7353,6 +6733,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41901fa-1220-42a8-b383-4fa632dcfa9d")
+	)
+	(wire
+		(pts
 			(xy 120.65 220.98) (xy 140.97 220.98)
 		)
 		(stroke
@@ -7370,6 +6760,16 @@
 			(type default)
 		)
 		(uuid "c58059f8-647a-41eb-8820-2988f1828af1")
+	)
+	(wire
+		(pts
+			(xy 318.77 158.75) (xy 322.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65ba2c9-dffe-4f00-a051-423e57562a1d")
 	)
 	(wire
 		(pts
@@ -7520,6 +6920,16 @@
 			(type default)
 		)
 		(uuid "ce9f22c6-5cf9-49f9-93e7-eee91fc8e787")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 139.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceac91c3-af64-4ba0-b5a6-2d0e1d64c41c")
 	)
 	(wire
 		(pts
@@ -7683,6 +7093,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 97.79) (xy 156.21 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4a80cf-aed1-4f7b-aa49-7e5204dd2cc9")
+	)
+	(wire
+		(pts
 			(xy 107.95 229.87) (xy 113.03 229.87)
 		)
 		(stroke
@@ -7710,6 +7130,16 @@
 			(type default)
 		)
 		(uuid "dfcb796d-f2d1-4e84-b50d-59d8f55b9322")
+	)
+	(wire
+		(pts
+			(xy 139.7 100.33) (xy 140.97 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10a8197-feb1-49a8-8ce1-531c3527f182")
 	)
 	(wire
 		(pts
@@ -7983,16 +7413,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 102.87) (xy 180.34 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b35d19-ab3a-4a53-898b-8de69eed6849")
-	)
-	(wire
-		(pts
 			(xy 39.37 237.49) (xy 39.37 238.76)
 		)
 		(stroke
@@ -8043,16 +7463,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 139.7 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1ca149-0e52-4fac-af9e-86bd70b1fa27")
-	)
-	(wire
-		(pts
 			(xy 111.76 39.37) (xy 132.08 39.37)
 		)
 		(stroke
@@ -8091,6 +7501,26 @@
 		)
 		(uuid "ff10a540-c78d-4882-a674-b277aa25339e")
 	)
+	(label "MOSI"
+		(at 345.44 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ceea659-b2f7-418b-a0f6-fd205a209a92")
+	)
+	(label "SCK"
+		(at 345.44 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87be9f6b-4c49-489f-b153-84806e9c7d46")
+	)
 	(label "Batt"
 		(at 345.44 186.69 0)
 		(effects
@@ -8101,31 +7531,29 @@
 		)
 		(uuid "bd7c0712-3222-48b5-b2cd-3baadb26a7c1")
 	)
-	(global_label "RX"
-		(shape input)
-		(at 227.33 97.79 180)
-		(fields_autoplaced yes)
+	(label "RST"
+		(at 345.44 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "011c5d06-c070-45f7-ab3e-bf07a0e21628")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.8219 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "ca5b6e88-dea4-416e-8149-ed1faf4d6bd4")
+	)
+	(label "MISO"
+		(at 345.44 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "def60589-179c-4f0b-b57f-c2654cc8e681")
 	)
 	(global_label "A"
 		(shape input)
-		(at 170.18 102.87 180)
+		(at 193.04 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8135,12 +7563,32 @@
 		)
 		(uuid "04f2824f-3443-40bb-8214-5d853124bdb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.7604 102.87 0)
+			(at 11.43 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Alt"
+		(shape input)
+		(at 50.8 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "084fb84e-0338-450c-9d77-90cba5be71e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -5.08 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8183,28 +7631,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX"
-		(shape input)
-		(at 288.29 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b6378a5-5980-4e27-a552-183361d397de")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.7981 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8293,28 +7719,6 @@
 			)
 		)
 	)
-	(global_label "TX"
-		(shape input)
-		(at 262.89 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a85d301-c6c6-4bce-aed3-5a5337c51371")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.0795 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED"
 		(shape input)
 		(at 29.21 148.59 180)
@@ -8336,9 +7740,9 @@
 			)
 		)
 	)
-	(global_label "A"
+	(global_label "Enc1"
 		(shape input)
-		(at 350.52 54.61 0)
+		(at 199.39 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8346,14 +7750,13 @@
 			)
 			(justify left)
 		)
-		(uuid "47f48e23-64a7-4474-8392-eb57d6af2c0f")
+		(uuid "4d7ca68c-8b7a-448a-b78d-f0d552bf1223")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 354.121 54.61 0)
+			(at 11.43 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8421,6 +7824,27 @@
 			)
 		)
 	)
+	(global_label "Enc0"
+		(shape input)
+		(at 350.52 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61d13227-ea38-4175-a5c0-8f75a3d5765d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -8.89 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col4"
 		(shape input)
 		(at 350.52 59.69 0)
@@ -8438,28 +7862,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX"
-		(shape input)
-		(at 326.39 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "645d8217-c5d0-4eaa-bc25-5fc610913705")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.8981 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8506,28 +7908,6 @@
 			)
 		)
 	)
-	(global_label "RX"
-		(shape input)
-		(at 326.39 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "730176f6-7f10-441a-8429-726eedb696bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.2005 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RGB_LINK"
 		(shape input)
 		(at 160.02 148.59 0)
@@ -8545,28 +7925,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B"
-		(shape input)
-		(at 350.52 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ac5dd58-7643-4463-8bcd-7c0ba1bbc720")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.9396 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8634,9 +7992,9 @@
 			)
 		)
 	)
-	(global_label "col0"
+	(global_label "col5"
 		(shape input)
-		(at 217.17 49.53 0)
+		(at 214.63 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8646,12 +8004,11 @@
 		)
 		(uuid "855854f1-4176-4105-b5b4-b7544891b539")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.6133 49.53 0)
+			(at 408.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8740,6 +8097,27 @@
 			)
 		)
 	)
+	(global_label "DATA"
+		(shape input)
+		(at 262.89 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a05ed109-9dec-44f6-97bf-53cfe7fa645b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 607.06 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Battery"
 		(shape input)
 		(at 359.41 182.88 180)
@@ -8763,7 +8141,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 309.88 69.85 180)
+		(at 309.88 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8773,7 +8151,7 @@
 		)
 		(uuid "a51a620d-094b-4382-ad5b-e94776e053bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -8.89 6.35 0)
+			(at -8.89 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,9 +8160,9 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "Hand"
 		(shape input)
-		(at 309.88 41.91 180)
+		(at 309.88 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8792,14 +8170,34 @@
 			)
 			(justify right)
 		)
-		(uuid "b09d01a2-9c3e-47d9-908d-691a1628d059")
+		(uuid "aef028c9-bd4b-4984-aea9-019dcc39d7ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.3719 41.91 0)
+			(at -8.89 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A"
+		(shape input)
+		(at 158.75 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1bf0979-c741-4128-a9bf-b3f4110bbcb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -5.08 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8846,9 +8244,9 @@
 			)
 		)
 	)
-	(global_label "B"
+	(global_label "Alt"
 		(shape input)
-		(at 180.34 102.87 0)
+		(at 214.63 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8856,14 +8254,34 @@
 			)
 			(justify left)
 		)
-		(uuid "c01821f2-42dd-4e90-b457-c4a35e1d2316")
+		(uuid "bf3951b3-b9d1-4524-b711-03b1074e3b68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.941 102.87 0)
+			(at 408.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B"
+		(shape input)
+		(at 193.04 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c01821f2-42dd-4e90-b457-c4a35e1d2316")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.43 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8889,6 +8307,48 @@
 			)
 		)
 	)
+	(global_label "DATA"
+		(shape input)
+		(at 330.2 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c094e4fa-d1aa-4361-8c19-905d3cdd1317")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -13.97 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Enc0"
+		(shape input)
+		(at 199.39 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4e5571b-e0e7-44dc-941b-697e7ab08cff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.43 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 285.75 198.12 0)
@@ -8906,50 +8366,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row4"
-		(shape input)
-		(at 217.17 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca04e9d1-3fa4-46eb-86b8-de42d53846cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.9762 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX"
-		(shape input)
-		(at 252.73 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf48c21e-ae2b-4efd-a67c-afd96d16a1ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.5405 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9039,6 +8455,27 @@
 			)
 		)
 	)
+	(global_label "B"
+		(shape input)
+		(at 158.75 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db582f5d-f969-414e-8902-de88b250c75c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -5.08 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1"
 		(shape input)
 		(at 350.52 67.31 0)
@@ -9056,28 +8493,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX"
-		(shape input)
-		(at 309.88 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd28f041-f7fb-4abc-9739-f53a3aae9fae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.0695 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9145,6 +8560,27 @@
 			)
 		)
 	)
+	(global_label "DATA"
+		(shape input)
+		(at 309.88 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec14813e-9fa8-4b0d-a980-f4504b3d593b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -8.89 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row4"
 		(shape input)
 		(at 309.88 67.31 180)
@@ -9156,6 +8592,27 @@
 			(justify right)
 		)
 		(uuid "ecf73b41-8985-4317-9d2f-144439cb6be7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -8.89 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Enc1"
+		(shape input)
+		(at 350.52 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed719640-2001-4a0b-956b-2fc557f849a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -8.89 -21.59 0)
 			(effects
@@ -9277,31 +8734,8 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 321.31 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d60ee44b-3791-44fb-a10d-9f7f044bcfb9")
-		(property "Netclass" "POWER"
-			(at 321.9196 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
-		(lib_id "Keyboard_Controllers:ProMicro")
+		(lib_id "keebio:ProMicro")
 		(at 327.66 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9427,6 +8861,72 @@
 			(project "Lotus58_Glow_128"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 43.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b722503")
+		(property "Reference" "SW25"
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Kailh hotswap MX socket"
+			(at 43.18 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches:Kailh_socket_MX_reversible_RGB"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55361918-5234-47ff-ab41-6762afc7daaf")
+		)
+		(pin "2"
+			(uuid "87b8ff89-e6a2-465b-81c3-2aa42ad77fc7")
+		)
+		(instances
+			(project "Lotus58_Glow_128"
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -9584,7 +9084,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 52.8066 36.703 90)
 			(effects
 				(font
@@ -9593,7 +9093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 50.8 35.56 0)
 			(effects
 				(font
@@ -9737,7 +9237,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 73.1266 36.703 90)
 			(effects
 				(font
@@ -9746,7 +9246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 71.12 35.56 0)
 			(effects
 				(font
@@ -9890,7 +9390,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 93.4466 36.703 90)
 			(effects
 				(font
@@ -9899,7 +9399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 91.44 35.56 0)
 			(effects
 				(font
@@ -10043,7 +9543,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 113.7666 36.703 90)
 			(effects
 				(font
@@ -10052,7 +9552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -10196,7 +9696,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 134.0866 36.703 90)
 			(effects
 				(font
@@ -10205,7 +9705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -10349,7 +9849,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 154.4066 36.703 90)
 			(effects
 				(font
@@ -10358,7 +9858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 152.4 35.56 0)
 			(effects
 				(font
@@ -10832,7 +10332,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 52.8066 53.213 90)
 			(effects
 				(font
@@ -10841,7 +10341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -10919,7 +10419,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 73.1266 53.213 90)
 			(effects
 				(font
@@ -10928,7 +10428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 71.12 52.07 0)
 			(effects
 				(font
@@ -11006,7 +10506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 93.4466 53.213 90)
 			(effects
 				(font
@@ -11015,7 +10515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 91.44 52.07 0)
 			(effects
 				(font
@@ -11093,7 +10593,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 113.7666 53.213 90)
 			(effects
 				(font
@@ -11102,7 +10602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 111.76 52.07 0)
 			(effects
 				(font
@@ -11180,7 +10680,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 134.0866 53.213 90)
 			(effects
 				(font
@@ -11189,7 +10689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 132.08 52.07 0)
 			(effects
 				(font
@@ -11267,7 +10767,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 154.4066 53.213 90)
 			(effects
 				(font
@@ -11276,7 +10776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -11750,7 +11250,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 52.8066 69.723 90)
 			(effects
 				(font
@@ -11759,7 +11259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 50.8 68.58 0)
 			(effects
 				(font
@@ -11837,7 +11337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 73.1266 69.723 90)
 			(effects
 				(font
@@ -11846,7 +11346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -11924,7 +11424,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 93.4466 69.723 90)
 			(effects
 				(font
@@ -11933,7 +11433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -12011,7 +11511,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 113.7666 69.723 90)
 			(effects
 				(font
@@ -12020,7 +11520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -12098,7 +11598,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 134.0866 69.723 90)
 			(effects
 				(font
@@ -12107,7 +11607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -12185,7 +11685,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 154.4066 69.723 90)
 			(effects
 				(font
@@ -12194,7 +11694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -12668,7 +12168,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 52.8066 86.233 90)
 			(effects
 				(font
@@ -12677,7 +12177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -12755,7 +12255,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 73.1266 86.233 90)
 			(effects
 				(font
@@ -12764,7 +12264,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 71.12 85.09 0)
 			(effects
 				(font
@@ -12842,7 +12342,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 93.4466 86.233 90)
 			(effects
 				(font
@@ -12851,7 +12351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -12929,7 +12429,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 113.7666 86.233 90)
 			(effects
 				(font
@@ -12938,7 +12438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -13016,7 +12516,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 134.0866 86.233 90)
 			(effects
 				(font
@@ -13025,7 +12525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 132.08 85.09 0)
 			(effects
 				(font
@@ -13103,7 +12603,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 154.4066 86.233 90)
 			(effects
 				(font
@@ -13112,7 +12612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -13388,7 +12888,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 52.8066 102.743 90)
 			(effects
 				(font
@@ -13397,7 +12897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -13475,7 +12975,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 73.1266 102.743 90)
 			(effects
 				(font
@@ -13484,7 +12984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 71.12 101.6 0)
 			(effects
 				(font
@@ -13562,7 +13062,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 93.4466 102.743 90)
 			(effects
 				(font
@@ -13571,7 +13071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 91.44 101.6 0)
 			(effects
 				(font
@@ -13649,7 +13149,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 113.7666 102.743 90)
 			(effects
 				(font
@@ -13658,7 +13158,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -13736,7 +13236,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148/1N4148W"
 			(at 134.0866 102.743 90)
 			(effects
 				(font
@@ -13745,7 +13245,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -14562,7 +14062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 318.77 158.75 90)
+		(at 327.66 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14570,7 +14070,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8f3218")
 		(property "Reference" "#PWR016"
-			(at 325.12 158.75 0)
+			(at 327.66 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,7 +14079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.1642 158.623 0)
+			(at 327.787 160.6042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +14087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 318.77 158.75 0)
+			(at 327.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 158.75 0)
+			(at 327.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 158.75 0)
+			(at 327.66 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,7 +14127,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 336.55 151.13 270)
+		(at 322.58 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14635,7 +14135,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b8f42da")
 		(property "Reference" "#PWR017"
-			(at 332.74 151.13 0)
+			(at 322.58 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14644,7 +14144,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 340.9442 151.5618 0)
+			(at 322.1482 163.1442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14652,7 +14152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 151.13 0)
+			(at 322.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14661,7 +14161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 151.13 0)
+			(at 322.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14670,7 +14170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 151.13 0)
+			(at 322.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +14217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 40.64 201.93 0)
 			(effects
 				(font
@@ -14963,17 +14463,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Keyboard Switches:SW_MX_HotSwap_Reversible_Encoder")
-		(at 43.18 99.06 0)
-		(mirror y)
+		(lib_id "Keyboard_Library:Rotary_Encoder_Switch_GND")
+		(at 148.59 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005faedc34")
-		(property "Reference" "SW25"
-			(at 43.18 106.68 0)
+		(property "Reference" "SW30"
+			(at 148.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14981,15 +14480,15 @@
 			)
 		)
 		(property "Value" "EC_11"
-			(at 43.18 109.22 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible_Encoder"
-			(at 46.99 94.996 0)
+		(property "Footprint" "Keyboard Library:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20_special"
+			(at 152.4 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +14497,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 92.456 0)
+			(at 148.59 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15006,8 +14505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 40.64 93.472 0)
+		(property "Description" ""
+			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,114 +14523,30 @@
 		(pin "C"
 			(uuid "765dda73-b146-463c-9f94-f465483419d5")
 		)
-		(pin "MP"
+		(pin "MP1"
 			(uuid "4359e5d6-a18c-48fe-8b03-f293fb110aa9")
 		)
-		(pin "MP"
+		(pin "MP2"
 			(uuid "442fe787-0928-48e0-a49f-bf8e49a1e3aa")
 		)
-		(pin "2"
+		(pin "S1"
 			(uuid "8f66a246-b06f-4252-9378-2a02f6ef40b9")
 		)
-		(pin "1"
+		(pin "S2"
 			(uuid "b082197d-2f4d-4324-b67d-6fa57e47482e")
 		)
 		(instances
 			(project "Lotus58_Glow_128"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "SW25")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "SW_MX_HotSwap_Reversible_Encoder_1")
-		(lib_id "Keyboard Switches:SW_MX_HotSwap_Reversible_Encoder")
-		(at 175.26 97.79 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-00005faedc35")
-		(property "Reference" "SW25"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC_11"
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Keyboard Switches:SW_MX_HotSwap_Reversible_Encoder"
-			(at 171.45 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 177.8 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "4bc84dec-c0fb-49ff-b933-5b89ee6657e1")
-		)
-		(pin "B"
-			(uuid "8c41ed2d-a235-4e02-9362-93721960c5ed")
-		)
-		(pin "C"
-			(uuid "765dda73-b146-463c-9f94-f465483419d6")
-		)
-		(pin "MP"
-			(uuid "4359e5d6-a18c-48fe-8b03-f293fb110aaa")
-		)
-		(pin "MP"
-			(uuid "442fe787-0928-48e0-a49f-bf8e49a1e3ab")
-		)
-		(pin "2"
-			(uuid "8f66a246-b06f-4252-9378-2a02f6ef40ba")
-		)
-		(pin "1"
-			(uuid "b082197d-2f4d-4324-b67d-6fa57e47482f")
-		)
-		(instances
-			(project "Lotus58_Glow_128"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "SW25")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 213.36 44.45 180)
+		(at 137.16 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15139,7 +14554,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc21ae0")
 		(property "Reference" "D30"
-			(at 212.1916 42.4434 90)
+			(at 138.3284 107.4166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15147,8 +14562,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 214.503 42.4434 90)
+		(property "Value" "1N4148/1N4148W"
+			(at 136.017 107.4166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15156,8 +14571,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 213.36 44.45 0)
+		(property "Footprint" "Keyboard Library:Diode_DO35_SOD123"
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15166,7 +14581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 44.45 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15175,7 +14590,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 213.36 44.45 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15184,7 +14599,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 213.36 44.45 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15193,7 +14608,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 213.36 44.45 0)
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15218,7 +14633,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 102.87 90)
+		(at 199.39 88.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15227,7 +14642,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc328b0")
 		(property "Reference" "C2"
-			(at 171.5516 105.2068 0)
+			(at 201.7268 90.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15236,7 +14651,7 @@
 			)
 		)
 		(property "Value" "50V/100nF axial"
-			(at 173.863 105.2068 0)
+			(at 201.7268 87.757 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15245,7 +14660,7 @@
 			)
 		)
 		(property "Footprint" "Common Library:RESISTOR_Reversible"
-			(at 172.72 102.87 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15254,7 +14669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 102.87 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15263,7 +14678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 102.87 0)
+			(at 199.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15288,7 +14703,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 109.22 0)
+		(at 209.55 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15296,7 +14711,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fc78457")
 		(property "Reference" "#PWR07"
-			(at 175.26 115.57 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15305,7 +14720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.387 113.6142 0)
+			(at 213.9442 84.963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +14728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 109.22 0)
+			(at 209.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,7 +14737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 109.22 0)
+			(at 209.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +14746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 109.22 0)
+			(at 209.55 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15352,7 +14767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Keyboard Switches:Rotary_Encoder_Click")
+		(lib_id "Keyboard_Library:Rotary_Encoder_Switch_GND")
 		(at 201.93 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15360,7 +14775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fd9f16c")
-		(property "Reference" "SW30"
+		(property "Reference" "SW31"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -15376,7 +14791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Encoders:Encoder_Alps_EC11E_Small"
+		(property "Footprint" "Keyboard Library:RotaryEncoder_Alps_EC11E-Switch_Special"
 			(at 198.12 42.926 0)
 			(effects
 				(font
@@ -15394,7 +14809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+		(property "Description" ""
 			(at 201.93 46.99 0)
 			(effects
 				(font
@@ -15412,10 +14827,10 @@
 		(pin "C"
 			(uuid "c47b14b4-f220-4f97-89fd-9fdf20465ce0")
 		)
-		(pin "MP"
+		(pin "MP1"
 			(uuid "e26972fb-9c58-4bd9-b3f7-0fdd648b8de2")
 		)
-		(pin "MP"
+		(pin "MP2"
 			(uuid "70885d7c-10f5-42ba-aacc-b662dabb0a25")
 		)
 		(pin "S1"
@@ -15427,7 +14842,72 @@
 		(instances
 			(project "Lotus58_Glow_128"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "SW30")
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ffc28cd")
+		(property "Reference" "#PWR09"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.6042 102.743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a961736-177a-4537-a6c3-f5c839f394f9")
+		)
+		(instances
+			(project "Lotus58_Glow_128"
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15523,7 +15003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:PJ-320A Double sided"
+		(property "Footprint" "Common Library:MJ-4PP-9_alim"
 			(at 313.69 153.67 0)
 			(effects
 				(font
@@ -15598,7 +15078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 60.96 201.93 0)
 			(effects
 				(font
@@ -15675,7 +15155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 81.28 201.93 0)
 			(effects
 				(font
@@ -15752,7 +15232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 101.6 201.93 0)
 			(effects
 				(font
@@ -15829,7 +15309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 121.92 201.93 0)
 			(effects
 				(font
@@ -15906,7 +15386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 142.24 201.93 0)
 			(effects
 				(font
@@ -15983,7 +15463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 139.7 204.47 0)
 			(effects
 				(font
@@ -16060,7 +15540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 119.38 204.47 0)
 			(effects
 				(font
@@ -16137,7 +15617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 99.06 204.47 0)
 			(effects
 				(font
@@ -16214,7 +15694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 78.74 204.47 0)
 			(effects
 				(font
@@ -16291,7 +15771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 58.42 204.47 0)
 			(effects
 				(font
@@ -16368,7 +15848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 38.1 204.47 0)
 			(effects
 				(font
@@ -16445,7 +15925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 40.64 237.49 0)
 			(effects
 				(font
@@ -16522,7 +16002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 60.96 237.49 0)
 			(effects
 				(font
@@ -16599,7 +16079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 81.28 237.49 0)
 			(effects
 				(font
@@ -16676,7 +16156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 101.6 237.49 0)
 			(effects
 				(font
@@ -16753,7 +16233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 121.92 237.49 0)
 			(effects
 				(font
@@ -16830,7 +16310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 142.24 237.49 0)
 			(effects
 				(font
@@ -16907,7 +16387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 139.7 240.03 0)
 			(effects
 				(font
@@ -16984,7 +16464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 119.38 240.03 0)
 			(effects
 				(font
@@ -17061,7 +16541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 99.06 240.03 0)
 			(effects
 				(font
@@ -17138,7 +16618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 78.74 240.03 0)
 			(effects
 				(font
@@ -17215,7 +16695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 58.42 240.03 0)
 			(effects
 				(font
@@ -17292,7 +16772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 38.1 240.03 0)
 			(effects
 				(font
@@ -17369,7 +16849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 40.64 273.05 0)
 			(effects
 				(font
@@ -17446,7 +16926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 60.96 273.05 0)
 			(effects
 				(font
@@ -17523,7 +17003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 81.28 273.05 0)
 			(effects
 				(font
@@ -17600,7 +17080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 101.6 273.05 0)
 			(effects
 				(font
@@ -17677,7 +17157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:RGB_SK6812MINI-E_REVERSIBLE"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 121.92 273.05 0)
 			(effects
 				(font
@@ -17988,7 +17468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:Battery_connection"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 331.47 209.55 0)
 			(effects
 				(font
@@ -18096,35 +17576,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:SRV05-4")
-		(at 275.59 95.25 0)
+		(lib_id "power:GND")
+		(at 161.29 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01a6f80b-fe52-43d7-8a38-ca4a66463916")
-		(property "Reference" "U3"
-			(at 278.3587 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SRV05-4"
-			(at 278.3587 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 293.37 106.68 0)
+		(uuid "00000000-0000-0000-0000-0000621f1e45")
+		(property "Reference" "#PWR08"
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18132,8 +17593,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 275.59 95.25 0)
+		(property "Value" "GND"
+			(at 165.6842 91.313 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18142,7 +17620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 95.25 0)
+			(at 161.29 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18151,27 +17629,76 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5abfc48-e51a-453a-89d1-d79371eba066")
-		)
-		(pin "2"
-			(uuid "5d332817-c22f-4aad-8f0b-9e6a64bb68d2")
-		)
-		(pin "3"
-			(uuid "417186fb-2f63-438f-b779-309b5eb2ec3b")
-		)
-		(pin "4"
-			(uuid "10b320b9-4ce1-4645-8499-529eca72b592")
-		)
-		(pin "5"
-			(uuid "29e48f24-a42f-49ae-bf2d-e494ac3a927c")
-		)
-		(pin "6"
-			(uuid "d0ea5be8-fe2d-4ecb-b796-1f1dae7f04fb")
+			(uuid "bf694f32-000a-4848-8c3b-4d87484f6de7")
 		)
 		(instances
-			(project "Lotus58_Glow_130"
+			(project "Lotus58_Glow_128"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "U3")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logotypes:CE_Logo")
+		(at 228.6 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "021f1320-5d19-4344-95cf-8d1a2307cf81")
+		(property "Reference" "Logo5"
+			(at 228.6 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CE_Logo"
+			(at 236.22 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Logotypes:CE"
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
+					(reference "Logo5")
 					(unit 1)
 				)
 			)
@@ -18416,6 +17943,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 259.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 259.08 177.8 0)
 			(effects
 				(font
@@ -18841,7 +18377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard Common:OLED_SSD1306_128x32_0_91_inch_Doublesided"
+		(property "Footprint" "Keyboard Common:SSD1306-0.91-OLED-4pin-128x32 doublesided"
 			(at 275.59 195.58 0)
 			(effects
 				(font
@@ -18902,93 +18438,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 152.4 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4299a43e-d6b0-4218-9b43-a082dc79c0f2")
-		(property "Reference" "D31"
-			(at 154.4066 100.4316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 154.4066 102.743 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Keyboard Common:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e463305-28a3-45ca-9eda-a07f8adfec97")
-		)
-		(pin "2"
-			(uuid "9307713e-6aea-44fa-bef9-6a8151a59b2d")
-		)
-		(instances
-			(project "Lotus58_Glow_130"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Keyboard_Library:SK6812MINI-E")
 		(at 152.4 148.59 0)
 		(unit 1)
@@ -19015,7 +18464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_SMALL_PAD"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 153.67 156.21 0)
 			(effects
 				(font
@@ -19066,33 +18515,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Keyboard Common:BLM18SG700TZ1D")
-		(at 332.74 151.13 90)
+		(lib_id "Logotypes:CE_Logo")
+		(at 228.6 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f76d147-4700-43f3-9291-3b681e2ea55e")
-		(property "Reference" "FB2"
-			(at 332.7019 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18SG700TZ1D"
-			(at 332.7019 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 332.74 152.908 90)
+		(uuid "4f1c011d-9466-4fd8-95e4-dfa63dcfed33")
+		(property "Reference" "Logo6"
+			(at 228.6 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19100,8 +18533,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 332.74 151.13 0)
+		(property "Value" "CE_Logo"
+			(at 236.22 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Logotypes:CE"
+			(at 228.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19110,41 +18561,18 @@
 			)
 		)
 		(property "Description" ""
-			(at 332.74 151.13 0)
+			(at 228.6 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" "C1002"
-			(at 332.74 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNo" ""
-			(at 332.74 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e76315e5-1308-424d-aa2a-214acbf7ca67")
-		)
-		(pin "2"
-			(uuid "e4cc68b4-4844-4d25-ab09-0b32ef447ac2")
 		)
 		(instances
 			(project "Lotus58_Glow_130"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "FB2")
+					(reference "Logo6")
 					(unit 1)
 				)
 			)
@@ -19360,91 +18788,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Keyboard Common:BLM18SG700TZ1D")
-		(at 332.74 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "718bc033-81d1-44da-84bd-356f87991a8e")
-		(property "Reference" "FB1"
-			(at 332.7019 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLM18SG700TZ1D"
-			(at 332.7019 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 332.74 152.908 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 332.74 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 332.74 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1002"
-			(at 332.74 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNo" ""
-			(at 332.74 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78b08b3c-b876-4e69-8a91-2048a99f7765")
-		)
-		(pin "2"
-			(uuid "c0693c18-6700-45c4-80c3-eddb0fd66803")
-		)
-		(instances
-			(project ""
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 285.75 195.58 270)
 		(unit 1)
@@ -19643,7 +18986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_SMALL_PAD"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 41.91 156.21 0)
 			(effects
 				(font
@@ -19720,7 +19063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_SMALL_PAD"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 86.36 156.21 0)
 			(effects
 				(font
@@ -19797,7 +19140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_SMALL_PAD"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 109.22 156.21 0)
 			(effects
 				(font
@@ -19849,8 +19192,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 177.8 102.87 90)
-		(mirror x)
+		(at 201.93 82.55 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19858,7 +19201,7 @@
 		(dnp no)
 		(uuid "96d7b164-1f98-4647-9ad1-86872c02abcc")
 		(property "Reference" "C1"
-			(at 176.6316 105.2068 0)
+			(at 199.5932 81.3816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19867,7 +19210,7 @@
 			)
 		)
 		(property "Value" "50V/100nF axial"
-			(at 178.943 105.2068 0)
+			(at 199.5932 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19876,7 +19219,7 @@
 			)
 		)
 		(property "Footprint" "Common Library:RESISTOR_Reversible"
-			(at 177.8 102.87 0)
+			(at 201.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19885,7 +19228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 102.87 0)
+			(at 201.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19894,7 +19237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 102.87 0)
+			(at 201.93 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20204,7 +19547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_SMALL_PAD"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 63.5 156.21 0)
 			(effects
 				(font
@@ -20249,71 +19592,6 @@
 			(project "Lotus58_Glow_128"
 				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
 					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7211b5d-c99c-47ba-ac84-004de5673e39")
-		(property "Reference" "#PWR08"
-			(at 187.96 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.0042 95.123 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c673902b-beb1-4d76-b082-44842eb6ce24")
-		)
-		(instances
-			(project "Lotus58_Glow_130"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20385,82 +19663,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e46836dd-b896-4d19-8ee9-1ac8a4ade576")
-		(property "Reference" "#PWR013"
-			(at 240.03 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.157 112.3442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "386fc789-4f95-4d2e-b6fb-88fa6d55a2f0")
-		)
-		(instances
-			(project "Lotus58_Glow_130"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:SRV05-4")
-		(at 240.03 95.25 0)
-		(mirror y)
+		(at 275.59 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "eb896b9d-5e49-40ff-ad9c-cf861ec18149")
 		(property "Reference" "U2"
-			(at 237.2613 80.01 0)
+			(at 278.3587 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20469,7 +19682,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 237.2613 82.55 0)
+			(at 278.3587 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20478,7 +19691,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 222.25 106.68 0)
+			(at 293.37 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20487,7 +19700,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 240.03 95.25 0)
+			(at 275.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20496,7 +19709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 95.25 0)
+			(at 275.59 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20611,71 +19824,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 240.03 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f433e449-edec-4ca7-b589-6ad15b2ef46f")
-		(property "Reference" "#PWR09"
-			(at 240.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f60f640b-93f2-497d-b2ef-99fc186fc60e")
-		)
-		(instances
-			(project "Lotus58_Glow_130"
-				(path "/033c564d-3d11-4dc7-8633-0c6732489a73"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 249.174 210.82 0)
 		(unit 1)
@@ -20767,7 +19915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE_SMALL_PAD"
+		(property "Footprint" "Keyboard RGB:MX_SK6812MINI-E_REVERSIBLE"
 			(at 132.08 156.21 0)
 			(effects
 				(font
